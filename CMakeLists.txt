@@ -102,7 +102,7 @@ execute_process(
 
 if( MSVC )
 	add_compile_options( /W4 /wd4100 /we4456 /utf-8 ) #  no char8_t: /Zc:char8_t-  - whole program optimization: /GL
-	add_compile_options( /constexpr:steps 104857600 )
+	add_compile_options( /constexpr:steps104857600 )
 
 	if( NOT USE_RTTI )
 		add_compile_options( /GR- )
