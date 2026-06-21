@@ -38,7 +38,11 @@ This Repository is about a simple 8-bit CPU emulator written in C++23. It simula
 
 ## Example Console View
 FETCH [PC=0x06]   ADD A B
+
 DECODE Opcode=0x04 Op1=A (0x00) Op2=B (0x01)
+
 EXECUTE A = 10 + 5 = 15
+
 CPU A=15   B=5   C=0   D=0    PC=0x09
+
 RAM (empty)
