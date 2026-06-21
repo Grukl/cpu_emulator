@@ -265,6 +265,7 @@ add_executable( bench
 	src/entity2.hpp
 	src/entity3.hpp
 	src/entity4.hpp
+		src/cpu/instruction.hpp
 )
 
 set_property(TARGET hello PROPERTY UNITY_BUILD ${USE_Unity_Builds})
