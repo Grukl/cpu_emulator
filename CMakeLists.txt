@@ -270,6 +270,7 @@ add_executable( bench
 		src/cpu/assembler.hpp
 		src/cpu/main.cpp
 		src/cpu/assembler.cpp
+		src/cpu/memory.cpp
 )
 
 set_property(TARGET hello PROPERTY UNITY_BUILD ${USE_Unity_Builds})
